@@ -43,7 +43,7 @@ namespace TicTacToe
         {            
             if (Check())
             {
-                if (step % 2 == 0)
+                if (step % 2 == 1)
                 {
                     MessageBox.Show("X Победили");
                 }
@@ -61,7 +61,7 @@ namespace TicTacToe
                 button8.Enabled = false;
                 button9.Enabled = false;
             }
-            if(step == 7)
+            if(step == 8)
             {
                 MessageBox.Show("Ничья");
                 button1.Enabled = false;
@@ -86,9 +86,9 @@ namespace TicTacToe
             CheckSymbol();
             button1.Text = symbol.ToString();
             button1.Enabled = false;
-            CheckVictory();
-            
             step++;
+
+            CheckVictory();  
         }
    
         private void button2_Click(object sender, EventArgs e)
@@ -96,9 +96,9 @@ namespace TicTacToe
             CheckSymbol();
             button2.Text = symbol.ToString();
             button2.Enabled = false;
-            CheckVictory();
-
             step++;
+
+            CheckVictory();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -106,9 +106,9 @@ namespace TicTacToe
             CheckSymbol();
             button3.Text = symbol.ToString();
             button3.Enabled = false;
-            CheckVictory();
-
             step++;
+
+            CheckVictory();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -116,9 +116,9 @@ namespace TicTacToe
             CheckSymbol();
             button4.Text = symbol.ToString();
             button4.Enabled = false;
-            CheckVictory();
-
             step++;
+
+            CheckVictory();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -126,9 +126,9 @@ namespace TicTacToe
             CheckSymbol();
             button5.Text = symbol.ToString();
             button5.Enabled = false;
-            CheckVictory();
-
             step++;
+
+            CheckVictory();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -136,10 +136,9 @@ namespace TicTacToe
             CheckSymbol();
             button6.Text = symbol.ToString();
             button6.Enabled = false;
-            CheckVictory();
-
-
             step++;
+
+            CheckVictory();
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -147,10 +146,9 @@ namespace TicTacToe
             CheckSymbol();
             button7.Text = symbol.ToString();
             button7.Enabled = false;
-            CheckVictory();
-
-
             step++;
+
+            CheckVictory();
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -158,10 +156,9 @@ namespace TicTacToe
             CheckSymbol();
             button8.Text = symbol.ToString();
             button8.Enabled = false;
-            CheckVictory();
-
-
             step++;
+
+            CheckVictory();
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -169,10 +166,9 @@ namespace TicTacToe
             CheckSymbol();
             button9.Text = symbol.ToString();
             button9.Enabled = false;
-            CheckVictory();
-
-
             step++;
+
+            CheckVictory();
         }
 
     }

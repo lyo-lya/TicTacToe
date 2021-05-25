@@ -131,7 +131,6 @@ namespace TicTacToe
             // button9
             // 
             this.button9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("SketchFlow Print", 40.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(213, 203);
             this.button9.Name = "button9";
